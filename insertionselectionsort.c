@@ -2,7 +2,7 @@
 void insertionSortDesc(int arr[], int n)
 {
     int i, key, j;
-    for (i = 1; i < n; i++)
+    for (i = 1; i < n; i++)//i==pass hai
     {
         key = arr[i];
         j = i - 1;
